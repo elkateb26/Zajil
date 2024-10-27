@@ -335,6 +335,7 @@ display: inline-block;
 /* start about */
 .aboutt{
   padding-block: var(--padding);
+  margin-top: 20px;
 }
 
 .aboutt .content p{
@@ -369,7 +370,7 @@ display: inline-block;
   margin-top:5%;
   }
   .contact .content span{
-      font-size: 25px;
+      font-size: 50px;
           margin-bottom: 15px;
           width: 60px;
           height: 60px;
@@ -380,15 +381,18 @@ display: inline-block;
           transition: all 0.5s;
   }
   .contact .content span:hover{
-      background-color: #3d1ada;
+      background-color: #18056d;
       color: #fff;
   }
-  .contact .content h6{
-   font-weight: 600;
+  .contact .content h4{
+   font-weight: 700;
+  
    margin-bottom: 1rem;
   }
   .contact .content p{
-   color: #0003b1;
+   color: #0121d8;
+   font-size: 24px;
+   font-weight: bold;
   }
   
 footer{
@@ -398,6 +402,8 @@ footer{
   text-align: center;
   padding-block: 30px;
   width: 100%;
+ margin-top: 20px;
+ 
 }
 .social1{
   
